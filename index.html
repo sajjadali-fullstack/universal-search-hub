@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+</head>
+
+<body>
+    <!-- 
+        MARK: Header
+    -->
+        <header> My Search Hub </header>
+        <!-- 
+            MARK: Main
+            -->
+        <main>
+
+            <!-- Form-1 YT -->
+            <form action="https://www.youtube.com/results" target="_blank">
+                <label for="yt-click">
+                    <h2>Youtube Search</h2>
+                </label>
+                <input id="yt-click" type="text" name="search_query" placeholder="Search ur fav shows...">
+                <button type="submit">Search on YT</button>
+                <input type="reset" value="Reset">
+            </form>
+
+            <!-- Form-2 Flipkart -->
+            <form action="https://www.flipkart.com/search" target="_blank">
+                <label for="fk-click">
+                    <h2>Flipkart Search</h2>
+                </label>
+                <input type="text" name="q" id="fk-click" placeholder="Search for products...">
+                <button type="submit">Search on Flipkart</button>
+                <input type="reset" value="Reset">
+            </form>
+
+            <!-- Form-3 Amazon -->
+            <form action="https://www.amazon.in/s  " target="_blank">
+                <label for="w">
+                    <h2>Amazon Search</h2>
+                </label>
+                <input type="text" name="k" id="w" placeholder="Search for products...">
+                <!-- ye bhi name mai dal skte hai: field-keywords -->
+                <button type="submit">Search on Amazon</button>
+                <input type="reset" value="Reset">
+            </form>
+
+
+            <!-- Form-3 Meesho -->
+            <form action="https://www.meesho.com/search" target="_blank">
+                <label for="meesho-click">
+                    <h2>Meesho Search</h2>
+                </label>
+                <input type="text" name="q" id="meesho-click" placeholder="Search for products...">
+                <button type="submit">Search on Meesho</button>
+                <!-- Own se try  -->
+                <input type="reset" value="Reset">
+            </form>
+        </main>
+</body>
+</html>
