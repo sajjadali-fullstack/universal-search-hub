@@ -8,6 +8,9 @@ A simple, clean, and functional web interface built with pure HTML to streamline
 - **Lightweight**: Zero JavaScript, zero CSS frameworks—just standard HTML forms.
 - **Targeted Results**: Opens searches in new tabs to keep your hub active.
 
+🌐 Live Demo:
+[Live Link](https://sajjadali-fullstack.github.io/universal-search-hub/)
+
 ## 🛠️ How it Works
 This project utilizes HTML `<form>` elements with specific `action` attributes and `name` parameters that match the query strings of the target websites:
 
